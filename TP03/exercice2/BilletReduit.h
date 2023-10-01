@@ -9,7 +9,7 @@ class BilletReduit : public Billet {
 public:
     BilletReduit(Trajet const & unTrajet,Tarif const & unTarif,Promotion & unePromo);
     Promotion const & getPromotion() const;
-    float getPrix()const;
+    float getPrix()const override;
     void afficher() const override;
 private:
     Promotion const & m_promotion;
