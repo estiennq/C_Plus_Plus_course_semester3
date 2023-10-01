@@ -15,6 +15,8 @@ Billet *newBillet(Conteneur<Trajet> &trajets,
                   Conteneur<Tarif> &tarifs,
                   Conteneur<Promotion> &promotions) {
 // A COMPLETER
+    auto *billet = new BilletReduit(trajets.choisir(),tarifs.choisir(),promotions.choisir());
+    return billet;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -33,6 +35,9 @@ int main(int argc, char **argv) {
     promotions.ajouter(new Promotion("Anniversaire", 0.2));
 
     // A COMPLETER
+    Billet *billet1 = newBillet(trajets,tarifs,promotions);
+    cout << *billet1;
+
 
     return 0;
 }

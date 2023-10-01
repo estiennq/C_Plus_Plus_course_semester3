@@ -30,12 +30,22 @@ const Visage &Visage::operator=(const Visage &unVisage) {
     // on clone la moustache de unVisage si il en a une
     if (unVisage.m_maMoustache == nullptr) this->m_maMoustache = nullptr;
     else this->m_maMoustache = new Moustache(*(unVisage.m_maMoustache));
+    this->m_monChapeau = new Chapeau(unVisage.m_monChapeau->getPoids());
+    for (Bijou const *bijou : unVisage.m_mesBijoux) {
+        addBijou(*bijou);
+    }
+    for (Bouton bouton : unVisage.m_mesBoutons) {
+        addBouton(bouton.getDiametre());
+    }
     return *this;
 }
 
-Visage::Visage(const Visage &unVisage): m_monNez(unVisage.m_monNez),m_monEthnie(unVisage.m_monEthnie){
+Visage::Visage(const Visage &unVisage): m_monNez(unVisage.m_monNez),m_monEthnie(unVisage.m_monEthnie),m_mesBijoux(unVisage.m_mesBijoux),m_mesBoutons(unVisage.m_mesBoutons){
     if (unVisage.m_maMoustache == nullptr)this->m_maMoustache = nullptr;
     else this->m_maMoustache = new Moustache(*(unVisage.m_maMoustache));
+    if (unVisage.m_monChapeau == nullptr)this-> m_monChapeau = nullptr;
+    else this->m_monChapeau = new Chapeau(unVisage.m_monChapeau->getPoids());
+
 }
 
 Visage::~Visage() {
@@ -43,16 +53,16 @@ Visage::~Visage() {
 }
 
 std::ostream &operator<<(std::ostream &sortie, const Visage &visage) {
-    sortie << "-attributs du visage" << endl << visage.m_monEthnie << endl << visage.m_monNez << endl;
+    sortie << "attributs du visage" << endl << visage.m_monEthnie << endl << visage.m_monNez << endl;
     if (visage.m_maMoustache == nullptr){
-        sortie << "-pas de moustache" << endl;
+        sortie << "pas de moustache" << endl;
     }else{
         sortie << *visage.m_maMoustache<< endl;
     }
     if (visage.m_monChapeau == nullptr){
-        sortie << "-pas de chapeau" << endl;
+        sortie << "pas de chapeau" << endl;
     } else{
-        sortie << *visage.m_monChapeau;
+        sortie << *visage.m_monChapeau << endl;
     }
     for (Bouton bouton : visage.m_mesBoutons ) {
         sortie << bouton << endl;

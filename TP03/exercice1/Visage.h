@@ -1,4 +1,4 @@
-#ifndef VISAGE_H
+ #ifndef VISAGE_H
 #define VISAGE_H
 
 #include "AttributsVisage.h"
