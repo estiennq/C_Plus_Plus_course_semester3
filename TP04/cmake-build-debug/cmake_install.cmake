@@ -1,4 +1,4 @@
-# Install script for directory: /users/info/etu-2a/estiennq/R3.04/TP04
+# Install script for directory: /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

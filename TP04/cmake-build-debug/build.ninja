@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug/
+cmake_ninja_workdir = /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target exercice1
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug/
 
 build cmake_object_order_depends_target_exercice1: phony || CMakeFiles/exercice1.dir
 
-build CMakeFiles/exercice1.dir/exercice1/exercice1.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04/TP04/exercice1/exercice1.cpp || cmake_object_order_depends_target_exercice1
+build CMakeFiles/exercice1.dir/exercice1/exercice1.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/exercice1/exercice1.cpp || cmake_object_order_depends_target_exercice1
   DEP_FILE = CMakeFiles/exercice1.dir/exercice1/exercice1.cpp.o.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles/exercice1.dir
@@ -57,7 +57,7 @@ build CMakeFiles/exercice1.dir/exercice1/exercice1.cpp.o: CXX_COMPILER__exercice
   TARGET_COMPILE_PDB = CMakeFiles/exercice1.dir/
   TARGET_PDB = exercice1.pdb
 
-build CMakeFiles/exercice1.dir/exercice1/Element.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04/TP04/exercice1/Element.cpp || cmake_object_order_depends_target_exercice1
+build CMakeFiles/exercice1.dir/exercice1/Element.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/exercice1/Element.cpp || cmake_object_order_depends_target_exercice1
   DEP_FILE = CMakeFiles/exercice1.dir/exercice1/Element.cpp.o.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles/exercice1.dir
@@ -65,7 +65,7 @@ build CMakeFiles/exercice1.dir/exercice1/Element.cpp.o: CXX_COMPILER__exercice1_
   TARGET_COMPILE_PDB = CMakeFiles/exercice1.dir/
   TARGET_PDB = exercice1.pdb
 
-build CMakeFiles/exercice1.dir/exercice1/Fichier.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04/TP04/exercice1/Fichier.cpp || cmake_object_order_depends_target_exercice1
+build CMakeFiles/exercice1.dir/exercice1/Fichier.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/exercice1/Fichier.cpp || cmake_object_order_depends_target_exercice1
   DEP_FILE = CMakeFiles/exercice1.dir/exercice1/Fichier.cpp.o.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles/exercice1.dir
@@ -73,7 +73,7 @@ build CMakeFiles/exercice1.dir/exercice1/Fichier.cpp.o: CXX_COMPILER__exercice1_
   TARGET_COMPILE_PDB = CMakeFiles/exercice1.dir/
   TARGET_PDB = exercice1.pdb
 
-build CMakeFiles/exercice1.dir/exercice1/Repertoire.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04/TP04/exercice1/Repertoire.cpp || cmake_object_order_depends_target_exercice1
+build CMakeFiles/exercice1.dir/exercice1/Repertoire.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/exercice1/Repertoire.cpp || cmake_object_order_depends_target_exercice1
   DEP_FILE = CMakeFiles/exercice1.dir/exercice1/Repertoire.cpp.o.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles/exercice1.dir
@@ -81,7 +81,7 @@ build CMakeFiles/exercice1.dir/exercice1/Repertoire.cpp.o: CXX_COMPILER__exercic
   TARGET_COMPILE_PDB = CMakeFiles/exercice1.dir/
   TARGET_PDB = exercice1.pdb
 
-build CMakeFiles/exercice1.dir/exercice1/Usager.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04/TP04/exercice1/Usager.cpp || cmake_object_order_depends_target_exercice1
+build CMakeFiles/exercice1.dir/exercice1/Usager.cpp.o: CXX_COMPILER__exercice1_Debug /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/exercice1/Usager.cpp || cmake_object_order_depends_target_exercice1
   DEP_FILE = CMakeFiles/exercice1.dir/exercice1/Usager.cpp.o.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles/exercice1.dir
@@ -115,7 +115,7 @@ build exercice1: CXX_EXECUTABLE_LINKER__exercice1_Debug CMakeFiles/exercice1.dir
 
 build cmake_object_order_depends_target_exercice2: phony || CMakeFiles/exercice2.dir
 
-build CMakeFiles/exercice2.dir/exercice2/exercice2.cpp.o: CXX_COMPILER__exercice2_Debug /users/info/etu-2a/estiennq/R3.04/TP04/exercice2/exercice2.cpp || cmake_object_order_depends_target_exercice2
+build CMakeFiles/exercice2.dir/exercice2/exercice2.cpp.o: CXX_COMPILER__exercice2_Debug /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/exercice2/exercice2.cpp || cmake_object_order_depends_target_exercice2
   DEP_FILE = CMakeFiles/exercice2.dir/exercice2/exercice2.cpp.o.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles/exercice2.dir
@@ -123,7 +123,7 @@ build CMakeFiles/exercice2.dir/exercice2/exercice2.cpp.o: CXX_COMPILER__exercice
   TARGET_COMPILE_PDB = CMakeFiles/exercice2.dir/
   TARGET_PDB = exercice2.pdb
 
-build CMakeFiles/exercice2.dir/exercice2/Parametres.cpp.o: CXX_COMPILER__exercice2_Debug /users/info/etu-2a/estiennq/R3.04/TP04/exercice2/Parametres.cpp || cmake_object_order_depends_target_exercice2
+build CMakeFiles/exercice2.dir/exercice2/Parametres.cpp.o: CXX_COMPILER__exercice2_Debug /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/exercice2/Parametres.cpp || cmake_object_order_depends_target_exercice2
   DEP_FILE = CMakeFiles/exercice2.dir/exercice2/Parametres.cpp.o.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles/exercice2.dir
@@ -153,7 +153,7 @@ build exercice2: CXX_EXECUTABLE_LINKER__exercice2_Debug CMakeFiles/exercice2.dir
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug && /usr/local/clion-2022.2.1/bin/cmake/linux/bin/ccmake -S/users/info/etu-2a/estiennq/R3.04/TP04 -B/users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug
+  COMMAND = cd /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug && /usr/local/clion-2022.2.1/bin/cmake/linux/bin/ccmake -S/users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04 -B/users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -165,7 +165,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug && /usr/local/clion-2022.2.1/bin/cmake/linux/bin/cmake --regenerate-during-build -S/users/info/etu-2a/estiennq/R3.04/TP04 -B/users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug
+  COMMAND = cd /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug && /usr/local/clion-2022.2.1/bin/cmake/linux/bin/cmake --regenerate-during-build -S/users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04 -B/users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -181,7 +181,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug
+# Folder: /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug
 
 build all: phony exercice1 exercice2
 

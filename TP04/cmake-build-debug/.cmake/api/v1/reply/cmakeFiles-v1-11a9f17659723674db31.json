@@ -728,8 +728,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug",
-		"source" : "/users/info/etu-2a/estiennq/R3.04/TP04"
+		"build" : "/users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug",
+		"source" : "/users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04"
 	},
 	"version" : 
 	{

@@ -1,4 +1,4 @@
-/usr/local/clion-2022.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/clion-2022.2.1/bin/ninja/linux/ninja -G Ninja -S /users/info/etu-2a/estiennq/R3.04/TP04 -B /users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug
+/usr/local/clion-2022.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/clion-2022.2.1/bin/ninja/linux/ninja -G Ninja -S /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04 -B /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug
 -- The C compiler identification is GNU 12.2.0
 -- The CXX compiler identification is GNU 12.2.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /users/info/etu-2a/estiennq/R3.04/TP04/cmake-build-debug
+-- Build files have been written to: /users/info/etu-2a/estiennq/R3.04git/C_course_semester3/TP04/cmake-build-debug
