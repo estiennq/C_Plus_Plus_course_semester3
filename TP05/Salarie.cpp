@@ -42,6 +42,7 @@ const float Salarie::getImpot() const {
     while (this->getSalaireMensuel()*12 > it->first) { // first correspond à la clef de la map.
         it++;// on passe à la "ligne" suivante
     }
+    it--;
     return it->second; // second correspond à la valeur associé à la clef de la map;
 
 
