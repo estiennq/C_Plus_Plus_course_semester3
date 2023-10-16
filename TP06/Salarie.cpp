@@ -38,7 +38,7 @@ const std::string & Salarie::getNom() const {
     // On aurait aussi pu spécifier la méthode ainsi : std::string Salarie::getNom() const
     //   et dans ce cas nomEnMajuscule n'aurait pas eu besoin d'être static
     nomEnMajuscule = "";
-    for (int i = 1; i < this->m_nom.size(); i++)
+    for (int i = 0; i < this->m_nom.size(); i++)
         nomEnMajuscule += (char)toupper(this->m_nom[i]);
     return nomEnMajuscule;
 }
@@ -61,7 +61,7 @@ void Salarie::setNumeroSS(const std::string & numeroSS) {
     bool erreur = false;
     for (int i = 0; !erreur && i < numeroSS.size(); i++)
         erreur = !isdigit(numeroSS[i]);
-    if (numeroSS.size() != 13 || erreur || numeroSS[0] < '1' | numeroSS[0] >= '2') throw NumeroIncorrectException();
+    if (numeroSS.size() != 13 || erreur || numeroSS[0] < '1' | numeroSS[0] > '2') throw NumeroIncorrectException();
     this->m_numeroSS = numeroSS;
 }
 
@@ -76,7 +76,7 @@ void Salarie::setSalaireMensuel(float salaireMensuel) {
     try {
         this->m_salaireMensuel.setVal(salaireMensuel);
     } catch (domain_error & exception) {
-        throw NumeroIncorrectException();
+        throw SalaireIncorrectException();
     }
 }
 
